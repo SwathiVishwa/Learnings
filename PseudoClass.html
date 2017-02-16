@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pseudo-class</title>
+	<style>
+	h3
+	{
+      text-align:center;
+      position:relative;
+	}
+	h3:after
+	{
+		background-color: #d41d1e;
+        display: block;
+        width: 100%;
+        height:2px;
+        max-width: 70px;
+        margin:0 auto;
+        content: '';
+	}
+	input:focus
+	{
+		background-color: green;
+	}
+	p:active
+	{
+		background-color: green;
+		color: red;
+	}
+</style>
+</head>
+<body>
+<h3 class="tit"> ABOUT </h3>
+<!--focus-->
+<div class="focus">
+<form>
+sName:<input type="text" name="sName"></br>
+splace:<input type="text" name="place"></br>
+</form>
+</div>
+<!--active-->
+<p>
+w3schools.comwikipedia.org</p>
+</div>
+</body>
+</html>
