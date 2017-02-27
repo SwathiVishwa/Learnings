@@ -1,0 +1,11 @@
+var num=10;
+var nume=5;
+var sum,sub,mull,div;
+sum=num+nume;
+console.log("sum of the two number is  "+sum);
+sub=num-nume;
+console.log("sum of the two number is"+sub);
+mull=num*nume;
+console.log("sum of the two number is"+mull);
+div=num/nume;
+console.log("sum of the two number is"+div);
